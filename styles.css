@@ -1,1 +1,72 @@
-/* USE CSS GRID AND FLEX HERE */
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container>*{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-flow: row wrap;
+    
+}
+
+.header{
+    background-color: blue;
+    flex: .5;
+}
+
+.footer{
+    background-color: cadetblue;
+    flex: .3;
+}
+
+.main{
+    text-align: center;
+    background-color: darkgoldenrod;
+    flex: 1;
+}
+
+.flex{
+    display: flex;
+    flex: 0;
+    padding: 0px;
+    margin: 0px;
+    background-color: darkblue;
+    justify-content: space-around;
+    align-content: none;
+
+}
+
+.content1{
+    background-color: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.content2{
+    background-color: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.content3{
+    background-color: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.content4{
+    background-color:none;
+    padding: 0px;
+    margin: 0px;
+}
+
+figure img{
+    width: 270px;
+    padding: 0px;
+    margin: 0px;
+}
+
